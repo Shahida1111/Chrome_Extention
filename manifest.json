@@ -1,0 +1,13 @@
+{
+    //In a Chrome extension, the manifest file is a critical component that provides important metadata about the extension to the browser
+    "manifest_version": 3, // telling chrome which version of this json file
+    "version": "1.0",//telling chrome which version of this app
+    "name": "Leads tracker",// name of app
+    "action": {             // it configures what happens when user click on our application from google chorme extention bar
+        "default_popup": "chromeExtention.html",// Specifies the default HTML page that should be opened when the extension icon is clicked. In this case, it's "index.html".
+        "default_icon": "icon.png"//Specifies the icon file that should be used for the extension.
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
